@@ -1,0 +1,78 @@
+body {
+  background-color: #7fb2f1;
+  font-family: 'Segoe UI';
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  text-align: center;
+  width: 330px;
+  background-color: white;
+  margin: 100px auto;
+  padding: 25px 15px;
+  border-radius: 15px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  margin-bottom: 20px;
+  color: blue;
+}
+button {
+  width: 40%;
+  cursor: pointer;
+  padding: 8px 10px;
+  margin: 20px;
+  border-radius: 20px;
+  color: white;
+  background-color: blue;
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+}
+button:hover {
+  background-color: black;
+}
+form input {
+  width: 92%;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  outline: none;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: #dadbe8;
+  font-size: 16px;
+}
+input:focus {
+  border: 3px solid skyblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.member {
+  font-size: 0.8em;
+}
+.forget {
+  text-align: left;
+  margin-left: 1.4rem;
+  font-size: 0.89em;
+}
+
+.pass {
+  position: relative;
+}
+
+span {
+  position: absolute;
+  right: 25px;
+  transform: translate(0, 45%);
+}
+
+i {
+  color: #fff;
+  cursor: pointer;
+}
